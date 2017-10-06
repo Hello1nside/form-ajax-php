@@ -7,35 +7,35 @@ $(document).ready(function(){
 
 		if ($("#services1").prop("checked") == true) {
 			var services1 = $("#services1").val();
-		} else { services1 = ""; }
+		} else { services1 = 0; }
 
 		if ($("#services2").prop("checked") == true) {
 			var services2 = $("#services2").val();		
-		} else { services2 = ""; }
+		} else { services2 = 0; }
 
 		if ($("#services3").prop("checked") == true) {
 			var services3 = $("#services3").val();		
-		} else { services3 = ""; }
+		} else { services3 = 0; }
 
 		if ($("#services4").prop("checked") == true) {
 			var services4 = $("#services4").val();		
-		} else { services4 = ""; }
+		} else { services4 = 0; }
 
 		if ($("#services5").prop("checked") == true) {
 			var services5 = $("#services5").val();		
-		} else { services5 = ""; }
+		} else { services5 = 0; }
 
 		if ($("#services6").prop("checked") == true) {
 			var services6 = $("#services6").val();		
-		} else { services6 = ""; }
+		} else { services6 = 0; }
 
 		if ($("#services7").prop("checked") == true) {
 			var services7 = $("#services7").val();		
-		} else { services7 = ""; }
+		} else { services7 = 0; }
 
 		if ($("#services8").prop("checked") == true) {
 			var services8 = $("#services8").val();		
-		} else { services8 = ""; }
+		} else { services8 = 0; }
 
 		var price = parseInt(services1) + parseInt(services2) + parseInt(services3) + parseInt(services4) + parseInt(services5) + parseInt(services6) 
 		+ parseInt(services7) + parseInt(services8);
