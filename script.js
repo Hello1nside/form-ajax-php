@@ -12,6 +12,9 @@ $(document).ready(function(){
 		if ($("#services2").prop("checked") == true) {
 			var services2 = $("#services2").val();		
 		} else { services2 = ""; }
+
+		var price = parseInt(services1) + parseInt(services2);
+		var twenty = price / 5;
 		
 		// Returns successful data submission message when the entered information is stored in database.
 		var dataString = 'name1='+ name + '&email1='+ email + '&password1='+ password + '&contact1='+ contact + '&services1='+services1 + 'services2='+services2;
@@ -28,7 +31,7 @@ $(document).ready(function(){
 					data: dataString,
 					cache: false,
 					success: function(result){
-						$("#result").text(result + services1 + services2);
+						$("#result").text(result + '\nYour price:' + price + ' For continue you need to pay 20%: ' + twenty);
 						$("#do").css("display", "block");
 					}
 				});
