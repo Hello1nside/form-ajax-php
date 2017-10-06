@@ -24,6 +24,10 @@
 				<label>Contact No :</label>
 				<input id="contact" type="text">
 
+				<label>Make Choose:</label>
+				<input type="checkbox" name="services1" id="services1" value="550">
+				<input type="checkbox" name="services2" id="services2" value="200">
+
 				<input id="submit" type="button" value="Submit">
 			</div>
 		</div>
