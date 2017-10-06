@@ -13,7 +13,32 @@ $(document).ready(function(){
 			var services2 = $("#services2").val();		
 		} else { services2 = ""; }
 
-		var price = parseInt(services1) + parseInt(services2);
+		if ($("#services3").prop("checked") == true) {
+			var services3 = $("#services3").val();		
+		} else { services3 = ""; }
+
+		if ($("#services4").prop("checked") == true) {
+			var services4 = $("#services4").val();		
+		} else { services4 = ""; }
+
+		if ($("#services5").prop("checked") == true) {
+			var services5 = $("#services5").val();		
+		} else { services5 = ""; }
+
+		if ($("#services6").prop("checked") == true) {
+			var services6 = $("#services6").val();		
+		} else { services6 = ""; }
+
+		if ($("#services7").prop("checked") == true) {
+			var services7 = $("#services7").val();		
+		} else { services7 = ""; }
+
+		if ($("#services8").prop("checked") == true) {
+			var services8 = $("#services8").val();		
+		} else { services8 = ""; }
+
+		var price = parseInt(services1) + parseInt(services2) + parseInt(services3) + parseInt(services4) + parseInt(services5) + parseInt(services6) 
+		+ parseInt(services7) + parseInt(services8);
 		var twenty = price / 5;
 		
 		// Returns successful data submission message when the entered information is stored in database.

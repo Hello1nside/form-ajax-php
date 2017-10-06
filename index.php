@@ -25,8 +25,14 @@
 				<input id="contact" type="text">
 
 				<label>Make Choose:</label>
-				<input type="checkbox" name="services1" id="services1" value="550">
-				<input type="checkbox" name="services2" id="services2" value="200">
+				<input type="checkbox" name="services1" id="services1" value="550">q
+				<input type="checkbox" name="services2" id="services2" value="200">w
+				<input type="checkbox" name="services3" id="services3" value="310">e				
+				<input type="checkbox" name="services4" id="services4" value="440">r
+				<input type="checkbox" name="services5" id="services5" value="120">t
+				<input type="checkbox" name="services6" id="services6" value="280">y
+				<input type="checkbox" name="services7" id="services7" value="370">u			
+				<input type="checkbox" name="services8" id="services8" value="680">i
 
 				<input id="submit" type="button" value="Submit">
 			</div>
